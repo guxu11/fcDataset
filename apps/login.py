@@ -91,7 +91,7 @@ def login_page():
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for('login_page'))
+    return redirect(url_for('not_login'))
 
 @app.route('/')
 def not_login():

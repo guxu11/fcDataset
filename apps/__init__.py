@@ -1,12 +1,13 @@
 import os
 from flask import Flask
 from apps.utils import create_folder
+from urllib.parse import quote_plus as urlquote
 
 app = Flask(__name__)
 
 app.debug = True
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@nanxin11@106.15.196.160/fcDataset'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:{}@106.15.196.160/fcDataset'.format(urlquote("@nanxin11"))
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 APPS_DIR = os.path.dirname(__file__)
