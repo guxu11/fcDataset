@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>DeepMoleNet</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+
+    <!-- Bootstrap core CSS -->
+<link href="{{url_for('static',filename='assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="{{url_for('static', filename='pricing.css')}}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Charge transfer state energy of organic photovoltaic materials</h5>
+{% if current_user.is_authenticated %}
+      Welcome! {{user_name}}
+      &nbsp;  &nbsp;&nbsp;&nbsp;
+      <a class="btn btn-outline-primary" href="/login">Logout</a>
+{% else %}
+    <a class="btn btn-outline-primary" href="/login">Login</a>
+{% endif %}
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-5">Charge transfer state energy of organic photovoltaic materials</h1><br>
+  <p class="lead" style="text-align:left">&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;
+      <b>&nbsp;Morphology related descriptors is crucial to the
+      prediction of charge transfer state energy. To obtained the morphology related descriptors,
+      several scripts have been written using Tool Command Language (TCL). If you want to obtain the
+      effective distance defined as the minimum distance between different unit of two molecular,
+      inclination angle, crossing angle, backbone length and width of polymer, you can run the script we provide.
+
+          <br>
+      &nbsp; &nbsp;&nbsp; &nbsp;To request the code and data, please complete the <a href="{{ url_for('static',filename='License.pdf') }}" download="license">LICENSE FORM</a>,
+      scan and email it to <i>majing@nju.edu.cn</i>.
+      </b>
+  </p>
+</div>
+
+<div class="container">
+  {% if current_user.is_authenticated %}
+  <div class="card-deck mb-3 text-center" style="margin:auto 15% auto 15%">
+    <div class="card mb-4 shadow-sm">
+
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Instruction</h4>
+      </div>
+
+      <div class="card-body">
+
+        <ul class="list-unstyled mt-3 mb-4" style="text-align:left; padding:1% 5% 1% 5%">
+          <li>Download the data and code. </li>
+
+        </ul>
+
+        <a type="button" class="btn btn-lg btn-primary" href="{{ url_for('static',filename='Data_and_code.rar') }}" download="Data_and_code.rar">Download</a>
+</div>
+
+    </div>
+  </div>
+    {% else %}
+
+      <img src="{{url_for('static',filename='images/not_login.png')}}" style="margin-left:20%;width:60%">
+
+  {% endif %}
+
+
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="{{url_for('static',filename='images/nju.png')}}" alt="" width="20" height="24">
+        <small class="d-block mb-3 text-muted">Nanjing University</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Institution</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://itcc.nju.edu.cn/majing/" target="_blank">Institute of Theoretical and Computational Chemistry</a></li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled text-small">
+
+          <li><b>E-mail:</b>  majing@nju.edu.cn</li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+  <script type="text/javascript">
+        function tip() {
+        alert("Please Login ！")
+    }
+  </script>
+</body>
+</html>

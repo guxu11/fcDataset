@@ -1,0 +1,61 @@
+data_CuTABQ2-1-IHIRUP-0Sol-4
+_audit_creation_date              2023-06-12
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P-31M'
+_symmetry_Int_Tables_number       162
+_symmetry_cell_setting            trigonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -y,x-y,z
+  -x+y,-x,z
+  -y,-x,-z
+  -x+y,y,-z
+  x,x-y,-z
+  -x,-y,-z
+  y,-x+y,-z
+  x-y,x,-z
+  y,x,z
+  x-y,-y,z
+  -x,-x+y,z
+_cell_length_a                    14.0976
+_cell_length_b                    14.0976
+_cell_length_c                    8.9700
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+N1     N     0.64931   0.19820   0.37645   0.00000  Uiso   1.00
+C1     C     0.58141   0.10318   0.43330   0.00000  Uiso   1.00
+H1     H     0.31107   0.50190   0.28488   0.00000  Uiso   1.00
+C13    C     0.56293  -0.00000   0.36484   0.00000  Uiso   1.00
+O1     O     0.38642  -0.00000   0.74888   0.00000  Uiso   1.00
+Cu1    Cu    0.66667   0.33333   0.50000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+N1     C1      1.299   .     D
+N1     H1      1.027   12_655 S
+N1     Cu1     2.110   .     S
+C1     C1      1.462   5_656 S
+C1     C13     1.477   .     S
+H1     N1      1.027   12_665 S
+C13    C1      1.477   11    S
+C13    O1      1.245   5_656 S
+O1     C13     1.245   5_656 S
+Cu1    N1      2.110   4_666 S
+Cu1    N1      2.110   6_556 S
+Cu1    N1      2.110   5_656 S
+Cu1    N1      2.110   3_665 S
+Cu1    N1      2.110   2_655 S

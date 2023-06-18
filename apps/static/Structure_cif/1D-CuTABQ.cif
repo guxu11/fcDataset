@@ -1,0 +1,118 @@
+data_CuTABQ1_noH2O-out
+_audit_creation_date              2023-06-12
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    6.3577
+_cell_length_b                    7.7333
+_cell_length_c                    7.5218
+_cell_angle_alpha                 59.4981
+_cell_angle_beta                  83.0007
+_cell_angle_gamma                 78.1417
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+N1     N     0.25447   0.71240   0.57440   0.00000  Uiso   1.00
+N2     N     0.25343   0.13919   0.71803   0.00000  Uiso   1.00
+N3     N     0.78089   0.65142   0.05193   0.00000  Uiso   1.00
+N4     N     0.74891   0.85082   0.65914   0.00000  Uiso   1.00
+N5     N     0.75879   0.47516   0.65948   0.00000  Uiso   1.00
+N6     N     0.72410   0.28630   0.05345   0.00000  Uiso   1.00
+Cu1    Cu    0.25317   0.42591   0.14600   0.00000  Uiso   1.00
+Cu2    Cu    0.75344   0.56569   0.85635   0.00000  Uiso   1.00
+O1     O     0.23241   0.33919   0.94277   0.00000  Uiso   1.00
+O2     O     0.26317   0.13198   0.35104   0.00000  Uiso   1.00
+O3     O     0.24302   0.51733   0.35026   0.00000  Uiso   1.00
+O4     O     0.27347   0.71491   0.94093   0.00000  Uiso   1.00
+O5     O     0.75382   0.27705   0.43052   0.00000  Uiso   1.00
+O6     O     0.75116   0.85539   0.28089   0.00000  Uiso   1.00
+C1     C     0.24490   0.14119   0.03726   0.00000  Uiso   1.00
+C2     C     0.25383   0.03094   0.25685   0.00000  Uiso   1.00
+C3     C     0.25325   0.81507   0.36957   0.00000  Uiso   1.00
+C4     C     0.25162   0.71179   0.25584   0.00000  Uiso   1.00
+C5     C     0.26036   0.81948   0.03584   0.00000  Uiso   1.00
+C6     C     0.25272   0.03643   0.92351   0.00000  Uiso   1.00
+C7     C     0.76546   0.84906   0.96793   0.00000  Uiso   1.00
+C8     C     0.75589   0.96165   0.74291   0.00000  Uiso   1.00
+C9     C     0.75375   0.18035   0.62454   0.00000  Uiso   1.00
+C10    C     0.75141   0.28146   0.74355   0.00000  Uiso   1.00
+C11    C     0.74025   0.17180   0.96894   0.00000  Uiso   1.00
+C12    C     0.75242   0.95213   0.08632   0.00000  Uiso   1.00
+H1     H     0.24992   0.55986   0.65875   0.00000  Uiso   1.00
+H2     H     0.25994   0.77761   0.66251   0.00000  Uiso   1.00
+H3     H     0.26416   0.07175   0.62948   0.00000  Uiso   1.00
+H4     H     0.24249   0.29391   0.63415   0.00000  Uiso   1.00
+H5     H     0.77629   0.56490   0.21013   0.00000  Uiso   1.00
+H6     H     0.72762   0.21689   0.21169   0.00000  Uiso   1.00
+H7     H     0.76383   0.56236   0.50130   0.00000  Uiso   1.00
+H8     H     0.74450   0.91921   0.50097   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+N1     C3      1.328   .     D
+N1     H1      1.022   .     S
+N1     H2      1.023   .     S
+N2     C6      1.332   .     D
+N2     H3      1.023   .     S
+N2     H4      1.022   .     S
+N3     Cu2     1.932   1_554 S
+N3     C7      1.311   1_554 D
+N3     H5      1.028   .     S
+N4     Cu2     1.931   .     S
+N4     C8      1.305   .     D
+N4     H8      1.029   .     S
+N5     Cu2     1.927   .     S
+N5     C10     1.306   .     D
+N5     H7      1.028   .     S
+N6     Cu2     1.936   1_554 S
+N6     C11     1.310   1_554 D
+N6     H6      1.029   .     S
+Cu1    O1      1.982   1_554 S
+Cu1    O2      1.989   .     S
+Cu1    O3      1.981   .     S
+Cu1    O4      1.990   1_554 S
+Cu2    N3      1.932   1_556 S
+Cu2    N6      1.936   1_556 S
+O1     Cu1     1.982   1_556 S
+O1     C1      1.310   1_556 D
+O2     C2      1.307   .     D
+O3     C4      1.307   .     D
+O4     Cu1     1.990   1_556 S
+O4     C5      1.309   1_556 D
+O5     C9      1.257   .     D
+O6     C12     1.261   .     D
+C1     O1      1.310   1_554 D
+C1     C2      1.425   .     S
+C1     C6      1.438   1_554 S
+C2     C3      1.439   1_545 S
+C3     C2      1.439   1_565 S
+C3     C4      1.438   .     S
+C4     C5      1.426   .     S
+C5     O4      1.309   1_554 D
+C5     C6      1.438   1_564 S
+C6     C5      1.438   1_546 S
+C6     C1      1.438   1_556 S
+C7     N3      1.311   1_556 D
+C7     C8      1.461   .     S
+C7     C12     1.453   1_556 S
+C8     C9      1.455   1_565 S
+C9     C8      1.455   1_545 S
+C9     C10     1.454   .     S
+C10    C11     1.461   .     S
+C11    N6      1.310   1_556 D
+C11    C12     1.453   1_546 S
+C12    C7      1.453   1_554 S
+C12    C11     1.453   1_564 S

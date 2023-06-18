@@ -1,0 +1,6 @@
+### Start
+
+```shell
+./start.sh
+```
+
